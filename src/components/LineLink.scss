@@ -1,0 +1,29 @@
+
+.lineLink{
+  display: flex;
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+
+  &:nth-of-type(n + 2){
+    border-top: 1px solid #E4E2E2;
+  }
+
+  &__title {
+    flex: 1;
+  }
+
+  &__extra{
+    width: auto;
+    color: #777;
+  }
+
+  &__arrow{
+    width: 16px;
+    margin-left: 10px;
+    background: #fff url('../Icons/arrow-r.svg') 50% / contain no-repeat;
+  }
+
+}
